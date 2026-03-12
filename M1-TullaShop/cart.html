@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search,shopping_cart" />
+
+    <title>TullaShop - Cart</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+
+            <div class="menu-top"> 
+                <div>
+                    <a href="index.html" class="menu-top-left">TullaShop</a>
+                </div>
+                <div class="menu-top-center">
+                        <div class="menu-top-center-list">
+                            <form action="#">
+                                <select name="categoria" id="categoria">
+                                    <option value="todos">Todos</option>
+                                    <option value="alexa">Alexas</option>
+                                    <option value="casa">Casa</option>
+                                    <option value="games">Games</option>
+                                    <option value="animes">Animes</option>
+                                    <option value="decoracao">Decoração</option>
+                                    <option value="eletronicos">Eletronicos</option>
+                                    <option value="beleza">Beleza</option>
+                                    <option value="automotivo">Automotivo</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="menu-top-center-search">
+                            <form action="#">
+                                <input type="text" placeholder="Pesquisar em TullaShop">
+                            </form>
+                        </div>
+                        <div class="menu-top-center-magnifier">
+                            <button><span class="material-symbols-outlined" >search</span></button>
+                        </div>
+                </div>
+                <div class="menu-top-right">
+                    <div class="menu-top-right-login">
+                        <a href="">
+                            <h5>Olá, faça seu login</h5>
+                            <h4>Contas e listas</h4>
+                        </a>
+                    </div>
+                    <div class="menu-top-right-devolution">
+                        <a href="">
+                            <h5>Devoluções</h5>
+                            <h4>e Pedidos</h4>                            
+                        </a>
+                    </div>
+                    <div class="menu-top-right-cart">
+                        <a href="cart.html" class="no-space" >
+                            <span class="material-symbols-outlined">shopping_cart</span>
+                            <h4>Carrinho</h4>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="menu-main"> 
+
+                <a href="products.html" class="borderwhite">Vendas TullaShop</a>
+                <a href="" class="borderwhite">Chegada Rapida</a>
+                <a href="" class="borderwhite">Mais Vendidos</a>
+                <a href="" class="borderwhite">Prime</a>
+                <a href="" class="borderwhite">Livros</a>
+                <a href="" class="borderwhite">Musicas</a>
+                <a href="" class="borderwhite">Casa</a>
+                <a href="" class="borderwhite">Games</a>
+                <a href="" class="borderwhite">Eletronicos</a>
+            </div>
+        </div>
+    </header>
+    <main class="main-cart">
+        <div class="main-cart-top">
+            <div class="cart-top-left">
+                <h1>Carrinho de compras</h1>
+                <p>Desmarcar todos os itens</p>
+                <div>
+
+                    <table class="table-cart">
+                        <thead>
+                            <tr>
+                                <td colspan="4"> Preço </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> <img class="select-item" src="img/cart/select-item.png" alt=""> </td>
+                                <td class="img-item"> <img class="img-item" src="img/cart/product1.jpg" alt=""> </td>
+                                <td class="table-cart-description">  
+                                    <h3>Monitor Gamer Samsung 24" FHD,100 Hz, HDMI, VGA,Preto, S3</h3>
+                                    <p class="in-stock">Em estoque</p>
+                                    <img class="prime-item" src="img/cart/icon-prime.png" alt="">
+                                    <p>Entrega GRÁTIS: <span class="span-bold">ter., 10 de mar.</span> </p>
+                                    <p>
+                                        <span class="cart-delete-item"> 🗑️<span class="cart-delete-item-padding span-bold">1</span>+</span>
+                                        <a href="">Excluir</a>
+                                        | 
+                                        <a href="">Salvar para mais tarde</a>
+                                        |
+                                        <a href="">Compartilhar</a>
+                                    <p>   
+                                </td>
+                                <td> <h3>R$599,99</h3><p>à vista no Pix ou NuPay Limite Adicional ou em até 10x de R$ 66,90 sem juros  <p></td>                
+                            </tr>
+                            <tr>
+                                <td> <img class="select-item" src="img/cart/select-item.png" alt=""> </td>
+                                <td class="img-item"> <img class="img-item" src="img/cart/product2.jpg" alt=""> </td>
+                                <td class="table-cart-description">  
+                                    <h3>Monitor PC Gamer LG 24MS500 24” IPS 100Hz Full HD HDMI 2x</h3>
+                                    <p class="in-stock">Em estoque</p>
+                                    <img class="prime-item" src="img/cart/icon-prime.png" alt="">
+                                    <p>Entrega GRÁTIS: <span class="span-bold">ter., 10 de mar.</span> </p>
+                                    <p>
+                                        <span class="cart-delete-item"> 🗑️<span class="cart-delete-item-padding span-bold">1</span>+</span>
+                                        <a href="">Excluir</a>
+                                        | 
+                                        <a href="">Salvar para mais tarde</a>
+                                        |
+                                        <a href="">Compartilhar</a>
+                                    <p>   
+                                </td>
+                                <td> <h3>R$579,99</h3><p>à vista no Pix ou NuPay Limite Adicional ou em até 10x de R$ 63,26 sem juros  </p></td>                
+                            </tr>                                  
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4"> Subtotal (2 produtos): <span>R$ 1.179,98</span></td>
+                            </tr>
+                        </tfoot>
+                    </table>  
+
+                </div>
+            </div>
+            <div class="cart-top-right">
+                <div class="cart-top-right-subtotal">
+                    <h3>Subtotal (2 produtos): <span class="span-bold">R$ 1.179,98</span> </h3>
+                    <div class="buttom-check">
+                        <img src="img/cart/check.png" alt="">
+                        <h4>Este pedido contem um presente</h4>
+                    </div>
+                    <form action="">
+                        <input type="text" placeholder="Digite aqui seu Cupom de Desconto">
+                        <button> Fechar Pedido </button>
+                    </form>
+                </div>
+                <div class="cart-top-right-products">
+                    <h2>Produtos que talvez goste</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer1">   
+            <div class="footer1-Information">
+                <h3>Conheça-nos</h3>
+                <a href=""><h5>Sobre a Amazon</h5></a>
+                <a href=""><h5>Informações corporativas</h5></a>
+                <a href=""><h5>Carreiras</h5></a>
+                <a href=""><h5>Comunicados à imprensa</h5></a>
+                <a href=""><h5>Comunidade</h5></a>
+                <a href=""><h5>Acessibilidade</h5></a>
+                <a href=""><h5>Amazon Science</h5></a>
+            </div>
+            <div class="footer1-Information">
+                <h3>Ganhe dinheiro conosco</h3>
+                <a href=""><h5>Venda na Amazon</h5></a>
+                <a href=""><h5>Proteja e construa a sua marca</h5></a>
+                <a href=""><h5>Forneça para a Amazon</h5></a>
+                <a href=""><h5>Publique seus livros</h5></a>
+                <a href=""><h5>Seja um associado</h5></a>
+                <a href=""><h5>Anuncie seus produtos</h5></a>
+            </div>
+            <div class="footer1-Information">
+                <h3>Pagamentos</h3>
+                <a href=""><h5>Meios de Pagamento</h5></a>
+                <a href=""><h5>Compre com Pontos</h5></a>
+                <a href=""><h5>Cartão de crédito Amazon</h5></a>
+            </div>
+            <div class="footer1-Information">
+                <h3>Deixe-nos ajudar você</h3>
+                <a href=""><h5>Sua conta</h5></a>
+                <a href=""><h5>Frete e prazo de entrega</h5></a>
+                <a href=""><h5>Devoluções e reembolsos</h5></a>
+                <a href=""><h5>Gerencie seu conteúdo e dispositivos</h5></a>
+                <a href=""><h5>Recalls e alertas de segurança do produto</h5></a>
+                <a href=""><h5>Ajuda</h5></a>
+            </div>
+        </div>
+
+        <div class="footer2">
+            <div> <img src="img/Tulla.png" alt=""> </div>
+            <div> <a href=""><img src="img/pt-br.png" alt=""></a></div>
+        </div>
+
+        <div class="footer3"> 
+            <div>
+                <h4>
+                    <a href="">Condições de Uso</a>
+                    | 
+                    <a href="">Notificação de Privacidade</a>
+                    |
+                    <a href="">Cookies</a>
+                    |
+                    <a href="">Anúncios Baseados em Interesses</a>
+                </h4>   
+                <div class="footer3-center">
+                    <h4>© 2021-2026 Tulla.com, Inc. ou suas afiliadas</h4>
+                </div> 
+            </div>
+            <p>Tulla Serviços de Varejo do Brasil Ltda. | CNPJ 15.436.940/0001-03</p>
+            <p>Av. Juscelino Kubitschek, 2041, Torre E, 18° andar - São Paulo CEP: 04543-011 |<a href="">Fale conosco</a>| ajuda-tulla@tullashop.com.br</p>
+            <p>Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix.</p>
+        </div>
+    </footer>
+</body>
+</html>
