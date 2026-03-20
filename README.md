@@ -1,4 +1,4 @@
-# Tulla-Course
+# Fullstack-Bootcamp-Tulla
 
 Repositório criado para armazenar os projetos, exercícios e atividades desenvolvidos durante o Bootcamp Full Stack da Tulla.
 
