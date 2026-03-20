@@ -4,9 +4,9 @@ Repositório criado para armazenar os projetos, exercícios e atividades desenvo
 
 ## Objetivo
 
-Este repositório reúne minha evolução prática no curso, com foco no desenvolvimento das minhas habilidades em programação e desenvolvimento web.
+Este repositório reúne minha evolução prática no curso, registrando meu aprendizado em desenvolvimento web, lógica de programação e construção de projetos.
 
-## Conteúdo do repositório
+## Estrutura do repositório
 
 ### M1-TullaShop
 Projeto desenvolvido no Módulo 1 do bootcamp, com foco em HTML e CSS.
@@ -15,11 +15,20 @@ Projeto desenvolvido no Módulo 1 do bootcamp, com foco em HTML e CSS.
 - HTML5
 - CSS3
 
-**Objetivos praticados:**
+**Habilidades praticadas:**
 - Estruturação de páginas com HTML semântico
 - Estilização com CSS
 - Organização visual de interface
-- Prática inicial de desenvolvimento front-end
+- Desenvolvimento de páginas web estáticas
+
+## Sobre mim
+
+Sou estudante de Engenharia da Computação, com experiência anterior em automação industrial, e atualmente em transição para a área de tecnologia, com foco em desenvolvimento de software, back-end, Java e Python.
+
+## Links
+
+- LinkedIn: [linkedin.com/in/amin-nelli](https://www.linkedin.com/in/amin-nelli/)
+- GitHub: [github.com/amin-nelli](https://github.com/amin-nelli)
 
 ## Status
 
