@@ -1,0 +1,108 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home {
+    display: block;
+}
+
+.home header {
+    background-color: #820AD1;
+    color: white;
+    padding: 20px 20px 2px 20px;
+    /* cima direita baixo esquerda */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icons-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-add-image {
+    display: flex;
+    background-color: #960df2;
+    border-radius: 50%;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icons-menu-right {
+    display: flex;
+    gap: 24px;
+}
+
+.name-acount {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px;
+}
+
+.tela-olho-button {
+    background-color: transparent;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 1px;
+    border: none;
+
+}
+
+.contas-button {
+    background-color: transparent;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 1px;
+    border: none;
+}
+
+.contas {
+    display: none;
+}
+
+.contas header {
+    background-color: #820AD1;
+    display: flex;
+    color: white;  
+    align-items: center; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+.contas header .voltar {
+    color: white;
+    text-decoration: none;
+    cursor:pointer;
+}
+.contas .card{
+    padding: 10px;
+    border-radius: 8px;
+    height: 20px;
+    width: 100%;
+    background-color: #820AD1;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.card a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.container-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
